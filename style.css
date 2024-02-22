@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alata", sans-serif;
+}
+/*******************************CONTAINER-1**************************************************** */
+.container-one {
+  background-image: url("loopstudios-landing-page-main/images/mobile/image-hero.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  padding: 33px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.header img{
+  margin-left: 7%;
+}
+.header ul {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  margin-right: 8%;
+}
+.header ul li {
+  margin-left: 65px;
+  font-size: 29px;
+}
+
+.para {
+  color: #fff;
+  border: 2px solid #fff;
+  margin-right: 91rem;
+  margin-left: 11%;
+  margin-top: 9%;
+  font-size: 6rem;
+  text-align: center;
+  width: 44%;
+}
+
+/* **********************************CONTAINER-2********************************************** */
+.container-two {
+  height: 100vh;
+  padding: 12%;
+  display: flex;
+  position: relative;
+}
+
+.container-two img {
+  width: 75rem;
+  height: 52rem;
+  margin-left: 12px;
+}
+
+.container-two .text {
+  height: 47%;
+  width: 38%;
+  margin-top: 12%;
+  position: absolute;
+  margin-left: 39%;
+  background-color: #fff;
+  /* border: 2px solid royalblue; */
+  padding: 102px;
+}
+.container-two .text h1 {
+  font-size: 65px;
+}
+.container-two .text p {
+  color: grey;
+  font-size: 28px;
+  padding-top: 12px;
+  line-height: 1.7;
+}
+
+/* ****************************CONTAINER-3**************************************** */
+.container-three{
+  margin-top: 12%;
+}
+.container-three .heading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13%;
+}
+.container-three .heading h1 {
+  font-size: 54px;
+}
+
+.container-three .heading h3 {
+  border: 3px solid black;
+  padding-top: 12px;
+  width: 12%;
+  font-size: 23px;
+  margin-right: 16%;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-top: 12px;
+}
+
+.container-boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  place-content: center;
+  grid-gap: 199px;
+  margin-left: 13%;
+  margin-top: 99px;
+}
+.container-boxes1{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  place-content: center;
+  grid-gap: 199px;
+  margin-top: 59px;
+  margin-left: 13%;
+
+}
+.container-boxes img{
+  width: 150%;
+ 
+}
+.container-boxes1 img{
+  width: 150%;
+  gap: 32px;
+}
+.container-boxes{
+  position: relative;
+  color: #fff;
+}
+.container-boxes1{
+  position: relative;
+  color: #fff;
+}
+.img-text1{
+  position: absolute;
+  top: 70%;
+  padding-left: 75px;
+  font-size: 54px;
+}
+.img-text2{
+  position: absolute;
+  left: 24%;
+  top: 70%;
+  font-size: 54px;
+
+}
+.img-text3{
+  /* background-color: red; */
+  position: absolute;
+  font-size: 54px;
+  left: 46%;
+  top: 70%;
+}
+.img-text4{
+  /* background-color: red; */
+  position: absolute;
+  font-size: 54px;
+  left: 68%;
+  top: 70%;
+}
+.img-text5{
+  position: absolute;
+  font-size: 54px;
+  margin-top: 23%;
+  padding-left: 70px;
+  
+}
+.img-text6{
+  position: absolute;
+  font-size: 54px;
+  left: 24%;
+  top: 70%;
+  
+}
+.img-text7{
+  position: absolute;
+  font-size: 54px;
+  left: 46%;
+  top: 70%;
+}
+.img-text8{
+  position: absolute;
+  font-size: 54px;
+  left: 68%;
+  top: 70%;
+}
+
+
+
+/***********************************FOOTER*********************************************** */
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 87px;
+  margin-top: 10%;
+}
+.footer .footer-inclues{
+  margin-left: 6%;
+}
+
+.footer .footer-inclues ul {
+  color: #fff;
+  display: flex;
+  list-style: none;
+  margin-left: 32px;
+}
+.footer .footer-inclues ul li {
+  margin-left: 38px;
+  font-size: 30px;
+}
+.footer .footer-inclues img {
+  margin-left: 72px;
+  margin-bottom: 23px;
+}
+.footer-logo-img{
+  margin-left: 28%;
+}
+
+
+.footer .footer-logo img {
+  margin-left: 25px;
+}
+.footer .footer-logo .footername p {
+  color: gray;
+  font-size: 25px;
+  margin-right: 240px;
+  margin-top: 32px;
+  /* background-color: aquamarine; */
+}
+
+
